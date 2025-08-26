@@ -137,15 +137,13 @@ void personalizarMenu() {
 void mostrarDespedida() {
   print('\n🧾 DATOS PERSONALES');
   print('┌────────────────────────────────────────────┐');
-  print('│ Cédula: 1025652983');
-  print('│ Nombre completo: Simon Vasquez Escobar');
-  print('│ Login: ${usuario.login.padRight(33)}│');
-  print('│ Clave: ${usuario.clave.padRight(33)}│');
+  print('│ Codigo: 1025652983');
+  print('│ Nombre completo: Simon Vasquez Escobar'); 
   print('│ Ciudad: Medellin');
   print('│ Correo: simonvasquez550@gmail.com           │');
   print('│ Fecha de nacimiento: 07/07/2008         │');
   print('│ Lugar de nacimiento: Medellin, Antioquia     │');
-  print('│ Autoevaluación: 4.0                     │');
+  print('│ Autoevaluación: 4.0 Me califico con 4.0 porque considero que logré implementar de manera correcta la mayoría de los requerimientos del programa │');
   print('└────────────────────────────────────────────┘');
   print('👋 ¡Gracias por usar el programa!');
 }
